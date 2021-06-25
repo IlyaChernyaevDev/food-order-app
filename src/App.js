@@ -1,11 +1,15 @@
-import React from "react";
+import React from 'react';
 
-import Header from "./components/Layout/Header";
+import Header from './components/Layout/Header';
+import Meals from './components/Meals';
 
 function App() {
   return (
     <>
-      <Header/>
+      <Header />
+      <main>
+        <Meals />
+      </main>
     </>
   );
 }
